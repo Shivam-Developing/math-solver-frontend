@@ -4,7 +4,8 @@ import { BlockMath } from 'react-katex';
 import 'katex/dist/katex.min.css';
 import './App.css';
 
-const API = "http://127.0.0.1:8000";
+const API = "https://math-solver-backend-q85n.onrender.com";  // your Render URL
+
 
 function App() {
   const [expression, setExpression]   = useState('');
